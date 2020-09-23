@@ -14,7 +14,6 @@ import { WizardComponent } from './dashboard/component/wizard/wizard.component';
 
 import { RootComponent } from './dashboard/root/root.component';
 import { LoginComponent } from './page/login/login.component';
-import { LockComponent } from './page/lock/lock.component';
 import { RegisterComponent } from './page/register/register.component';
 
 const routes: Routes = [
