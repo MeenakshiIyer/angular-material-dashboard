@@ -19,7 +19,6 @@ import { RegisterComponent } from './page/register/register.component';
 
 const routes: Routes = [
   {path: '', component: LoginComponent},
-  {path: 'lock', component: LockComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'dashboard', component: RootComponent, children: [
     {path: '', component: HomeComponent},
