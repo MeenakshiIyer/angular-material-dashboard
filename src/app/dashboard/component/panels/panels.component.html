@@ -1,0 +1,58 @@
+<div class="container">
+  <app-navbar title="Panels"></app-navbar>
+  <div class="row page-title">
+    <div class="col-md-6">
+      <div class="card">
+        <h4>Navigation Pills - <small>Horizontal Tabs</small></h4>
+        <div class="h-tab">
+          <div class="tab">
+            <button mat-raised-button class="btn btn-warning btn-round tab-link default-active" (click)="tabClick($event, 'profile')">PROFILE</button>
+            <button mat-raised-button class="btn btn-warning btn-round tab-link" (click)="tabClick($event, 'settings')">SETTINGS</button>
+            <button mat-raised-button class="btn btn-warning btn-round tab-link" (click)="tabClick($event, 'options')">OPTIONS</button>
+          </div>
+          <div id="profile" class="tab-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget vestibulum tellus. Pellentesque et massa ac tellus tincidunt luctus. Sed ac quam vitae ante tincidunt fringilla nec nec elit. Mauris elementum elit tellus, quis sodales nulla facilisis vel. Donec porta posuere velit ac malesuada. 
+            <br/><br/>
+            Donec suscipit tortor lorem, vitae mollis urna rhoncus ac. Praesent convallis mauris turpis, quis mollis magna maximus ut. Aenean vel magna vitae est vulputate lobortis quis vitae lectus. Curabitur non eros tincidunt, feugiat ex sed.
+          </div>
+          <div id="settings" class="tab-content">
+            Curabitur non eros tincidunt, feugiat ex sed, accumsan nunc. Aenean interdum, sem nec ultricies luctus, ligula elit convallis nisi, auctor lacinia ante leo quis mi. Vivamus viverra libero sit amet quam venenatis vestibulum. Fusce interdum sapien id dui sollicitudin condimentum .
+
+            <br/><br/>
+            Proin mattis nec urna in placerat. Vivamus pretium leo vel diam tempor, nec tincidunt felis convallis. Ut auctor mauris nec quam eleifend volutpat. Sed leo mi, pulvinar sed eleifend in, consectetur in purus.
+          </div>
+          <div id="options" class="tab-content">
+            Ut venenatis magna nisl, sit amet convallis est aliquet nec. Curabitur blandit elementum suscipit. Ut ac odio sapien. Donec dapibus, urna id fermentum sagittis, purus turpis consequat massa, et efficitur lacus mi rutrum arcu. Nullam et scelerisque velit.<br/><br/> Sed tellus turpis, facilisis eget convallis id, euismod et diam. Aliquam ultricies, quam eu scelerisque posuere, lorem justo consectetur orci, ut sagittis eros dolor sit amet justo. Praesent interdum, magna a sagittis vulputate, magna felis commodo quam, sed tristique nisi est vitae mauris.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h4>Navigation Pills - <small>Vertical Tabs</small></h4>
+        <div class="row v-tab page-title">
+          <div class="col-md-4">
+            <button mat-raised-button class="btn btn-info btn-round btn-block tab-link default-active" (click)="vTabClick($event, 'one')">PROFILE</button>
+            <button mat-raised-button class="btn btn-info btn-round btn-block tab-link" (click)="vTabClick($event, 'two')">SETTINGS</button>
+            <button mat-raised-button class="btn btn-info btn-round btn-block tab-link" (click)="vTabClick($event, 'three')">OPTIONS</button>
+          </div>
+          <div class="col-md-8">
+            <div id="one" class="tab-content">
+              Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.<br/><br/>
+              Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.<br/><br/>
+              This is very nice.
+            </div>
+            <div id="two" class="tab-content">
+              Fusce congue aliquet dui, ut efficitur augue gravida id. Quisque faucibus egestas ligula, a condimentum dolor fringilla nec. Aenean finibus augue dictum nisi semper commodo. Fusce commodo dapibus velit, ut congue felis eleifend quis. Nulla convallis, arcu sit amet vehicula facilisis, metus nisi convallis ante, id faucibus turpis odio non lacus. <br/><br/>
+              Fusce commodo dapibus velit, ut congue felis eleifend quis. Nulla convallis, arcu sit amet vehicula facilisis, metus nisi convallis ante, id faucibus turpis odio non lacus. 
+            </div>
+            <div id="three" class="tab-content">
+              Donec suscipit tortor lorem, vitae mollis urna rhoncus ac. Praesent convallis mauris turpis, quis mollis magna maximus ut. Aenean vel magna vitae est vulputate lobortis quis vitae lectus. Curabitur non eros tincidunt, feugiat ex sed, accumsan nunc. Aenean interdum, sem nec ultricies luctus, ligula elit convallis nisi, auctor lacinia ante leo quis mi. <br/><br/>
+              Vivamus viverra libero sit amet quam venenatis vestibulum. Fusce interdum sapien id dui sollicitudin condimentum gravida quis velit. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
